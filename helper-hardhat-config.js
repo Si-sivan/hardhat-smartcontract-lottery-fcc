@@ -1,6 +1,5 @@
 const { ethers } = require("hardhat")
 
-// 在开发链上我们需要使用“mock",然后在测试网或真实网络中再使用实际的合约地址
 const networkConfig = {
     11155111: { 
         name: "sepolia",
